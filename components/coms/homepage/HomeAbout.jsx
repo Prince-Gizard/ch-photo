@@ -7,7 +7,11 @@ export default function HomeAbout({ data }) {
       <div className="flex flex-col md:flex-row mt-10 items-center sm:gap-10 gap-5">
         <div className="flex items-center">
           <div className="w-full transition-all md:w-[20em] h-[25em]">
-            <img src="" alt="" className="w-full rounded h-full object-cover" />
+            <img
+              src="/images/profile-shot.jpg"
+              alt=""
+              className="w-full rounded h-full object-cover"
+            />
           </div>
         </div>
 
