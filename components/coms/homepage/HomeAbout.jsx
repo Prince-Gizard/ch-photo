@@ -9,7 +9,7 @@ export default function HomeAbout({ data }) {
           <div className="w-full transition-all md:w-[20em] h-[25em]">
             <img
               src="/images/profile-shot.jpg"
-              alt=""
+              alt="logoProfile"
               className="w-full rounded h-full object-cover"
             />
           </div>

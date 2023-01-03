@@ -31,7 +31,7 @@ export default function NavBar() {
         href="/"
         className="text-md:xl  font-extrabold relative z-50 capitalize text-first w-[6em]"
       >
-        <img src="/images/main.jpg" alt="" />
+        <img src="/images/main.jpg" alt="logoIcon" />
       </Link>
 
       <div
