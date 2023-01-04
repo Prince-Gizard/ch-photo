@@ -62,7 +62,7 @@ export default function NavBar() {
             {router.pathname === i.link && (
               <motion.div
                 layoutId="link-border"
-                className="absolute -bottom-[.5] w-full h-[.08em] bg-green-500"
+                className="absolute -bottom-[.5] w-full h-[.08em] bg-sky-400"
               />
             )}
           </Link>
@@ -167,9 +167,9 @@ export default function NavBar() {
       <div className="sm:flex hidden gap-3">
         <Link
           href="/contact"
-          className="bg-gradient-to-br from-sky-400 active:scale-95 transition-all to-sky-700 text-white  py-2 px-3 rounded"
+          className="bg-gradient-to-br from-sky-300 active:scale-95 transition-all to-sky-500 text-white  py-2 px-3 rounded"
         >
-          контакты
+          Contact
         </Link>
       </div>
 
