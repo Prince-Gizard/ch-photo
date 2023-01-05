@@ -74,7 +74,7 @@ export default function NavBar() {
             href="/contact"
             className="bg-sky-400 text-white active:scale-95 transition-all py-2 px-3 z-20 rounded"
           >
-            контакты
+            Contact
           </Link>
         </div>
 

@@ -7,7 +7,7 @@ export default function Footer() {
       <span className="sm:text-sm text-xs sm:mt-0 mt-6 text-gray-500 sm:text-center dark:text-gray-400">
         © 2022{" "}
         <Link
-          href="https://github.com/omer-os"
+          href="https://github.com/Prince-Gizard/ch-photo"
           className="hover:underline"
           target="_blank"
         >
