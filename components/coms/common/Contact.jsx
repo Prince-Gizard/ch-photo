@@ -90,7 +90,7 @@ export default function Contact({ data }) {
               </ul>
             </div>
           </div>
-          <div className="absolute bottom-0 left-0 w-full h-2 bg-green-600 "></div>
+          <div className="absolute bottom-0 left-0 w-full h-2 bg-sky-300 "></div>
         </div>
       </div>
     </div>
