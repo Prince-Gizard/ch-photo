@@ -13,13 +13,13 @@ export default function Hero({ data }) {
           </div>
           <Link
             href="/portfolio"
-            className="py-3 w-max px-4 bg-gradient-to-br from-green-900 text-white to-green-700 "
+            className="py-3 w-max px-4 bg-gradient-to-br from-sky-700 text-white to-sky-500 "
           >
             View Gallery
           </Link>
-          <div className="line absolute -left-10 top-2 w-2 h-[6em] bg-gradient-to-r from-green-900 to-green-600"></div>
+          <div className="line absolute -left-10 top-2 w-2 h-[6em] bg-gradient-to-r from-sky-700 to-sky-500"></div>
 
-          <div className="absolute top-0 -left-10 h-full w-2 bg-gradient-to-b from-green-900 to-green-600"></div>
+          <div className="absolute top-0 -left-10 h-full w-2 bg-gradient-to-b from-sky-700 to-sky-500"></div>
         </div>
       </div>
       <div className="object-cover absolute z-10 h-screen left-0 right-0 top-0">

@@ -22,7 +22,7 @@ export default function HomeAbout({ data }) {
             className="bg-stone-700/50 w-max py-2 px-3 mt-5 sm:mt-10 border border-stone-600 active:scale-95 transition-all scale-1"
             href="/portfolio"
           >
-            my projects
+            My projects
           </Link>
         </div>
       </div>
