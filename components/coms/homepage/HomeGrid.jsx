@@ -47,11 +47,10 @@ export default function HomeGrid({ data }) {
               </div>
               <div className="absolute bottom-0 h-full w-full left-0 bg-black/30 z-10"></div>
 
-              <div className="bg-gradient-to-l absolute w-full h-2 from-green-500 duration-300 -bottom-2 opacity-0  group-hover:opacity-100 transition-all"></div>
+              <div className="bg-gradient-to-l absolute w-full h-2 from-sky-300 duration-300 -bottom-2 opacity-0  group-hover:opacity-100 transition-all"></div>
             </motion.div>
           </Link>
         ))}
-   
     </motion.section>
   );
 }
