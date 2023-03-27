@@ -5,6 +5,7 @@ import GalleryImage from "../../components/coms/portfolio/GalleryImage";
 import Head from "next/head";
 import SanityClient from "../../data";
 import { useRouter } from "next/router";
+
 export default function Index({ data }) {
   const [Category, setCategory] = useState("");
 
@@ -15,7 +16,7 @@ export default function Index({ data }) {
     if (category) {
       setCategory(category);
     } else {
-      setCategory("baby");
+      setCategory("wedding");
     }
   }, []);
 
@@ -33,7 +34,7 @@ export default function Index({ data }) {
 
       <div className="bg-stone-800 py-2 mx-auto max-w-full overflow-x-scroll w-max sm:static sticky rounded-xl top-16 z-40 px-2 scroll-snap-none">
         <div className="bg-stone-700 flex gap-2 p-2 rounded-xl w-max">
-          {data.category.map((i, index) => (
+          {data.categories.map((i, index) => (
             <div
               key={index}
               className="relative py-2 px-3 cursor-pointer"
@@ -65,8 +66,9 @@ export default function Index({ data }) {
 }
 
 export async function getStaticProps() {
-  const data = await SanityClient.fetch(`*[_type in ["category", "gallery"]][0]{
-    "category":*[_type == 'category']{_id,title},
+  const data =
+    await SanityClient.fetch(`*[_type in ["categories", "gallery"]][0]{
+    "categories":*[_type == 'categories']{_id,title},
     "gallery":*[_type == 'gallery']{title,slug,Image,videoLink,categories->
   {title}}
   }
