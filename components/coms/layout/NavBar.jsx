@@ -72,7 +72,7 @@ export default function NavBar() {
           <Link
             onClick={() => setOpenSideBar(false)}
             href="/contact"
-            className="bg-green-500 text-white active:scale-95 transition-all py-2 px-3 z-20 rounded"
+            className="bg-sky-400 text-white active:scale-95 transition-all py-2 px-3 z-20 rounded"
           >
             контакты
           </Link>
@@ -97,7 +97,7 @@ export default function NavBar() {
                 </svg>
               </span>{" "}
             </Link>
-            <Link href="https://www.pinterest.com/sadiqghazi">
+            <Link href="https://www.pinterest.com/">
               <span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +167,7 @@ export default function NavBar() {
       <div className="sm:flex hidden gap-3">
         <Link
           href="/contact"
-          className="bg-gradient-to-br from-green-700 active:scale-95 transition-all to-green-600 text-white  py-2 px-3 rounded"
+          className="bg-gradient-to-br from-sky-400 active:scale-95 transition-all to-sky-700 text-white  py-2 px-3 rounded"
         >
           контакты
         </Link>
