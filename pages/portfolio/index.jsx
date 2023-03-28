@@ -16,7 +16,7 @@ export default function Index({ data }) {
     if (category) {
       setCategory(category);
     } else {
-      setCategory("wedding");
+      setCategory("testing");
     }
   }, []);
 
